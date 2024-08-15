@@ -3,6 +3,10 @@
 int main ()
 
 {
+int a;
+int *p;
+p= &a;
 
-    printf("hello world");
+    printf("%d\n",p);
+    printf("%d\n",*p);
 }

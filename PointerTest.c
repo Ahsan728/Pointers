@@ -3,12 +3,13 @@
 int main ()
 //This bbbbbbb
 {
-int a;
-int *p;
+int a; int *p;
 a=10;
 p= &a; //&a address of a
-
-    printf("%d\n",p);
-    printf("%d\n",*p);// *p ...value of address pointed by p
-    printf("%d\n",&a);
+printf("Address of P is %d\n",p);
+printf("Value of P is %d\n",*p);
+int b=20;
+*p= b;//will the address in p change to point b
+printf("Address of P is %d\n",p);
+printf("Value of P is %d\n",*p);
 }

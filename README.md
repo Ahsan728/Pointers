@@ -50,7 +50,7 @@ Why strong types? Why not some generic types?
 
 We do not use pointer variables only to store memory addresses, but we also use them to derefrence these addresses so that we can access and modify the values of these addressed.
 
-##Typecasting of pointer variable
+## Typecasting of pointer variable wrt pointer type
 
 ```c
 #include <stdio.h>
@@ -77,4 +77,61 @@ printf("Address= %d, value=%d\n",p0+1,*(p0+1));
 
 }
 ```
+
+# Void Pointer
+
+
+
+# Pointer to Pointer
+A pointer to a pointer, often referred to as a double pointer, is a variable that stores the address of another pointer. It's essentially a level of indirection added to the concept of pointers
+
+
+
+# Pointer as Function Argument
+
+
+
+
+# Pointers and Arrays
+
+
+
+# Arrays as Function Argument
+
+
+
+
+
+# Character arrays and Pointer
+
+
+
+# Pointers and 2D arrays
+
+
+# Pointers and Multidimentional arrays
+
+
+# Pointers and Dynamic Memory | Stack vs Heap
+
+
+
+# Dynamic Memory Allocation in C | malloc, calloc, realloc free
+
+# Pointers as Function Return in C
+
+
+# Function Pointers in C
+
+
+# Function Pointer and Callback
+
+
+
+# Memory Leak in C
+
+
+
+
+
 

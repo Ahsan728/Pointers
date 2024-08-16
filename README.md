@@ -44,3 +44,9 @@ printf("Value of P is %d\n",*p);
 
 ## Pointer Types, Void Pointer, Pointer Arithmatic
 
+int* --> int 
+char* --> char
+Why strong types? Why not some generic types?
+
+We do not use pointer variables only to store memory addresses, but we also use them to derefrence these addresses so that we can access and modify the values of these addressed.
+

@@ -1,3 +1,6 @@
+[Reference 1](http://alumni.cs.ucr.edu/%7Epdiloren/C++_Pointers/)
+
+
 **Pointer Arithmatic**
 
 ```c
